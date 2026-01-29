@@ -367,7 +367,7 @@ EOL
         echo -e "${GREEN}✓${RESET} PyTorch installed (macOS version)"
     else
         echo -e "${YELLOW}Installing PyTorch 2.9.1 + CUDA 13.0...${RESET}"
-        uv pip install $UV_ARGS torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu130
+        uv pip install $UV_ARGS torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu124
         echo -e "${GREEN}✓${RESET} PyTorch installed (CUDA version)"
     fi
     
