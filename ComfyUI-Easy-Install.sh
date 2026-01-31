@@ -255,7 +255,7 @@ EOL
                 $SUDO_CMD apt-get update
                 $SUDO_CMD apt-get install -y build-essential zlib1g-dev libncurses5-dev \
                     libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev \
-                    liblzma-dev libbz2-dev libsqlite3-dev uuid-dev libdb-dev sshpass netcat\
+                    liblzma-dev libbz2-dev libsqlite3-dev uuid-dev libdb-dev sshpass \
                     tk-dev libncursesw5-dev unzip
             elif command -v yum >/dev/null 2>&1; then
                 # RHEL/CentOS
